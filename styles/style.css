@@ -1,12 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    padding: 8px 0;
+}
 nav{
-    background-color: #f1e8e8;
     display: flex;
     justify-content: space-between;
-    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 0;
 }
 ul{
     display: flex;
     list-style-type: none;
     list-style: none;
     gap: 10px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+    color: #333;
+}
+
+.logo-r{
+    color: #FD6E0A;
+}
+
+ul li a{
+    text-decoration: none;
 }
