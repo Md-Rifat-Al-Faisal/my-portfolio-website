@@ -13,6 +13,22 @@
     text-decoration: none;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 12px;   
+    font-size: 22px;
+    color: #FD6E0A;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+     cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
 }
 
 header{
@@ -48,4 +64,38 @@ ul{
 
 ul li a{
     text-decoration: none;
+}
+/* Hero Section style */
+.hero-parent-root{
+    background-color: #F9F9F9;
+    
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+hero-left p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.hero-left-p1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.hero-right{
+    width: 50%;
+}
+.hero-left-btn-parent{
+    
+    margin-top: 8px;
 }
