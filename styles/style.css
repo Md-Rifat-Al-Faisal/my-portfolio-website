@@ -1,6 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 6px 15px;
+    border-radius: 12px;   
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
 }
 
 header{
@@ -17,8 +29,11 @@ nav{
 ul{
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
     list-style: none;
     gap: 10px;
+    align-items: center;
+
 }
 
 .logo{
