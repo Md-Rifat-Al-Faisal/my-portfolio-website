@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 
 .common-btn{
     background-color: #FD6E0A;
@@ -82,7 +85,7 @@ ul li a{
     margin-bottom: 8px;
 }
 
-hero-left p{
+.hero-left p{
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
@@ -98,4 +101,57 @@ hero-left p{
 .hero-left-btn-parent{
     
     margin-top: 8px;
+}
+
+/* About Section style */
+.about-parent{
+    background-color: #F9F9F9;
+    margin: 70px auto;
+    border-radius: 12px;
+    padding: 75px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.about-box-parent .box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+/* What I Do Section style */
+.what-i-do-parent{
+   
+    margin: 60px auto;
+    border-radius: 12px;
+    
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-card-container .what-i-do-card{
+    background-color: #F9F9F9;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
 }
